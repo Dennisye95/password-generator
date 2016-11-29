@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+}
+
+#title{
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.top{
+  text-align: center;
+}
+
+.bottom{
+  text-align: center;
+}
+
+.submit{
+  text-align: center;
+  padding: 50px;
+}
+
+.input{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+}
+
+#output{
+  text-align: center;
+}
+
+.shown{
+  color: white;
+}

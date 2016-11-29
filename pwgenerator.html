@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Generator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div>
+	<div id="title">
+		<h1>PASSWORD GENERATOR</h1>
+	</div>
+		<div class="top">
+			<div class="input">
+				<h2>First Name</h2>
+				<input id="topleft" type = "text" name = "first">
+			</div>
+			<div class="input">
+				<h2>Middle Name</h2>
+				<input id="topmiddle" type = "text" name = "middle">
+			</div>
+			<div class="input">
+				<h2>Last Name</h2>
+				<input id="topright" type = "text" name = "last">
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="input">
+				<h2>Birth Year</h2>
+				<input id="bottomleft" type = "text" name = "year">
+			</div>
+			<div class="input">
+				<h2>Birth Month</h2>
+				<input id="bottommiddle" type = "text" name = "month">
+			</div>
+			<div class="input">
+				<h2>Birth Date</h2>
+				<input id="bottomright" type = "text" name = "day">
+			</div>
+		</div>
+		<div class="submit">
+			<button id="button" onclick="generate()">Generate</button>
+		</div>
+		<div id="output">
+			<p class="shown">These keywords generated the following phrase:</p>
+			<p id="shuffled"></p>
+			<p class="shown">This phrase generated the following password:</p>
+			<p id="password"></p>
+			<script type="text/javascript" src="pwgen.js"></script>
+		</div>
+</div>
+</body>
+
+</html>
